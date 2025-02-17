@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+/* Header Styling */
+h1 {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+/* Navigation Styling */
+.nav {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.nav-items {
+  display: inline-block;
+}
+
+.search-box {
+  padding: 10px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-btn {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: #45a049;
+}
+
+/* Cart and Account Icon Styling */
+.cart-link,
+.account-link {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.cart-icon,
+.account-icon {
+  width: 50px;
+  height: 50px;
+  object-fit: cover; /* Ensures the image is cropped to fill the space */
+  margin-right: 10px;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: whitesmoke;
+  position: absolute;
+  height: 60px;
+  width: 100%;
+  bottom: 0;
+  border-top: solid black;
+  text-align: center;
+  padding: 10px;
+}
+
+.hero {
+  position: absolute;
+  left: 500px;
+  top: 100px;
+}
